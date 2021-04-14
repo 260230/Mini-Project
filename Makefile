@@ -8,10 +8,10 @@ CXXFLAGS = -std=c11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = myapp
+APPNAME = Sortingalgos
 EXT = .c
-SRCDIR = .
-OBJDIR = .
+SRCDIR = D:\Mini-Project
+OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
