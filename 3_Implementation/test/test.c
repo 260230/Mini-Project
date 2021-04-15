@@ -7,7 +7,6 @@
 
 void test_BubbleSort(void);
 void test_InsertionSort(void);
-void test_SelectionSort(void);
 void test_QuickSort(void);
 void test_MergeSort(void);
 
@@ -25,7 +24,6 @@ int main()
 // Run Test functions 
   RUN_TEST(test_BubbleSort);
   RUN_TEST(test_InsertionSort);
-  RUN_TEST(test_SelectionSort);
   RUN_TEST(test_QuickSort);
   RUN_TEST(test_MergeSort);
   
@@ -49,14 +47,6 @@ void test_InsertionSort(void) {
    int* actual=InsertionSort(list,3);
    TEST_ASSERT_EQUAL_INT_ARRAY(expected,actual,3);
   
-  
-}
-
-void test_SelectionSort(void) {
-   int expected[]={10, 12, 13};
-   int list[]={10, 13, 12};
-   int* actual=SelectionSort(list,3);
-   TEST_ASSERT_EQUAL_INT_ARRAY(expected,actual,3);
   
 }
 
