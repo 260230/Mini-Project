@@ -46,6 +46,7 @@ int main() {
 	return 0;
 }
 
+//bubble sort start's
 void bubbleSort(int arr[], int size) {
 	int i, j, temp;
 	for(i = 0; i < size - 1; i++) {
@@ -60,6 +61,8 @@ void bubbleSort(int arr[], int size) {
 	}
 }
 
+
+//insertion sort start's
 void insertionSort(int arr[], int size) {
 	int i, j, key;
 	for(i = 1; i < size; i++) {
@@ -71,6 +74,7 @@ void insertionSort(int arr[], int size) {
 	}
 }
 
+//Quick sort start's
 int partition(int arr[], int offset, int size) {
 	int x = arr[size];
 	int i = offset - 1;
@@ -99,6 +103,7 @@ void quickSort(int arr[], int offset, int size) {
 	}
 }
 
+//mergesort start's
 void merge(int arr[], int offset, int mid, int size) {
 	int n1 = mid - offset + 1;
 	int n2 = size - mid;
