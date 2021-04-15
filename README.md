@@ -5,6 +5,10 @@ SDLC ACTIVITY BASED LEARNING
 
  Sorting Algorithims
 
+Code Quality | Git Inspector
+|---------|------------|-----------|----------------
+[![Code Quality - Static Code - Cppcheck](https://github.com/260230/Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/260230/Mini-Project/actions/workflows/cppcheck.yml) |
+[![Contribution Check - Git Inspector](https://github.com/260230/Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/260230/Mini-Project/actions/workflows/gitinspector.yml)
 ## Diagram
 ![Diagram](https://github.com/260230/Mini-Project/blob/main/2_Design/High%20level%20Architecture%20design.png)
 
