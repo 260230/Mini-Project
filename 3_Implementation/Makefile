@@ -1,17 +1,12 @@
 PROJECT_NAME = Sortingalgo
 
 SRC = src/BubbleSort.c\
-src/Swap.c\
-src/Display.c\
 src/InsertionSort.c\
-src/SelectionSort.c\
 src/QuickSort.c\
 src/MergeSort.c
 
 GCNO = BubbleSort\
-Swap\
 InsertionSort\
-SelectionSort\
 QuickSort\
 MergeSort
 
@@ -51,8 +46,8 @@ run: $(PROJECT_NAME).exe
 	$(PROJECT_NAME).exe
 
 test:$(TEST)
-	gcc -Iinc $(INC) $(UNI) $(SRC) $(TEST_SRC).c -o test\test_sorting.exe
-	./test\test_sorting.exe
+	gcc -Iinc $(INC) $(UNI) $(SRC) $(TEST_SRC).c -o test\Main.exe
+	./test\Main.exe
 
 coverage:
 	gcc -fprofile-arcs -ftest-coverage -Iinc $(INC) $(UNI) $(SRC) $(TEST_SRC).c $(PROJECT_NAME).c -o all.out
