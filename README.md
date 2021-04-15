@@ -6,7 +6,7 @@ SDLC ACTIVITY BASED LEARNING
  Sorting Algorithims
 
 ## Diagram
-[!Diagram](https://github.com/260230/Mini-Project/blob/main/2_Design/High%20level%20Architecture%20design.png)
+![Diagram](https://github.com/260230/Mini-Project/blob/main/2_Design/High%20level%20Architecture%20design.png)
 
 
 | Folder | Description | 
