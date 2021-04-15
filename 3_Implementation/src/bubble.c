@@ -1,4 +1,4 @@
-	#include"prototype.h"
+	#include<stdio.h>
     
     bubbleSort(int arr[], int size) {
 	int i, j, temp;
